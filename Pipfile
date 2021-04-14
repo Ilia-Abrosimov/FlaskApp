@@ -9,6 +9,7 @@ flask-sqlalchemy = "*"
 flask-migrate = "*"
 flask-swagger-ui = "*"
 marshmallow-sqlalchemy = "*"
+pyjwt = "==1.7.1"
 
 [dev-packages]
 
