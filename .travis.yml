@@ -10,6 +10,6 @@ install:
   - pipenv installl --dev
 
 script:
-  - pytest
+  - python -m pytest tests/
   - caverage run --source='src/' -m pytest
-  - pycodestyle src/ --ignore=E722, E501, E402
+  - pycodestyle src/ --ignore=E722,E501,E402
