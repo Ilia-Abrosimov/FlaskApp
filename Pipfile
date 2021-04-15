@@ -12,6 +12,8 @@ marshmallow-sqlalchemy = "*"
 pyjwt = "==1.7.1"
 
 [dev-packages]
+pytest = "*"
+coverage = "*"
 
 [requires]
 python_version = "3.8"
