@@ -7,7 +7,7 @@ before_install:
 
 install:
   - pip install pipenv
-  - pipenv installl --dev
+  - pipenv install --dev
 
 script:
   - python -m pytest tests/
