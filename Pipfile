@@ -10,6 +10,8 @@ flask-migrate = "*"
 flask-swagger-ui = "*"
 marshmallow-sqlalchemy = "*"
 pyjwt = "==1.7.1"
+requests = "*"
+bs4 = "*"
 
 [dev-packages]
 pytest = "*"
