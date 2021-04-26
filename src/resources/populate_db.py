@@ -59,13 +59,13 @@ class PopulateDB(Resource):
             print(f'Received information about - {title}', flush=True)
             films_to_create.append(
                 {
-                 'title': title,
-                 'rating': rating,
-                 'description': description,
-                 'release_date': release_date,
-                 'length': length,
-                 'distributed_by': 'Warner Bros. Pictures',
-                 }
+                    'title': title,
+                    'rating': rating,
+                    'description': description,
+                    'release_date': release_date,
+                    'length': length,
+                    'distributed_by': 'Warner Bros. Pictures',
+                }
             )
             return films_to_create
 
