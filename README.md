@@ -21,5 +21,17 @@
     {"username": "username",
     "email": "mail",
     "password": "password"}
+---
 
 <h3> Установка и развертывание </h3>
+Клонировать репозиторий
+
+    $ git clone https://github.com/Ilia-Abrosimov/FlaskApp
+
+Установить зависимости
+
+    $ pipenv install
+
+Запуск
+
+    $pipenv run python wsgi.py
