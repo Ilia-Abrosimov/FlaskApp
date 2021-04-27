@@ -34,4 +34,4 @@
 
 Запуск
 
-    $pipenv run python wsgi.py
+    $ pipenv run python wsgi.py
