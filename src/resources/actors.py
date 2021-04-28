@@ -43,7 +43,6 @@ class ActorListApi(Resource):
         db.session.commit()
         return self.actor_schema.dump(actor), 200
 
-
     def patch(self, id):
         actor = db.session.query(Actor).filter_by(id=id).first()
         if not actor:
