@@ -62,15 +62,15 @@ class FilmListApi(Resource):
         rating = film_json.get('rating')
         if title:
             film.title = title
-        elif release_date:
+        if release_date:
             film.release_date = release_date
-        elif distributed_by:
+        if distributed_by:
             film.distributed_by = distributed_by
-        elif description:
+        if description:
             film.description = description
-        elif length:
+        if length:
             film.length = length
-        elif rating:
+        if rating:
             film.rating = rating
         db.session.add(film)
         db.session.commit()

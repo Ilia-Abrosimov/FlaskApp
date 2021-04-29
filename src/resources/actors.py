@@ -56,7 +56,7 @@ class ActorListApi(Resource):
             actor.name = name
         if birthday:
             actor.birthday = birthday
-        if is_active:
+        if is_active == 0 or is_active == 1:
             actor.is_active = is_active
         db.session.add(actor)
         db.session.commit()
